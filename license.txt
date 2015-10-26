@@ -1,0 +1,4 @@
+Copyright (c) 2015, Aman Deep
+All rights reserved.
+
+The source code of keylogger.py can be modified or redistributed if and only if the above the source code retains the above copyright notice.
